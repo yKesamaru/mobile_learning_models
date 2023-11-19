@@ -238,8 +238,10 @@ MobileNetV3は、EfficientNetV2よりもパラメータ数が少ない傾向に�
 [^6]: Compound Scalingは、EfficientNetの核となるコンセプトで、モデルのサイズ、精度、および計算効率の間の長年のトレードオフを解決するために開発されました。この方法の背後にあるアイデアは、ニューラルネットワークの三つの重要な次元、すなわち幅（width）、深さ（depth）、および解像度（resolution）をスケーリングすることです​​。Compound Scalingの具体的な手法には、ユーザーが定義するcompound coefficient（ϕ）を使用して、ネットワークの幅、深さ、解像度を統一的にスケールアップします。例えば、入力画像が大きい場合、ネットワークはより多くの層を必要とし、より細かいパターンをキャプチャするためにより多くのチャネルが必要になります。この直感に基づき、Compound Scalingはこれらの次元を一様にスケーリングすることで、モデルの精度と効率を一貫して向上させます​​​​。このスケーリング方法は、従来のスケーリング方法と比較して、MobileNet（+1.4% ImageNet精度）やResNet（+0.7%）などの既存モデルの精度と効率を一貫して向上させることが示されています。Compound Scalingの有効性は、基本となるネットワークアーキテクチャにも大きく依存しています​​。
 
 ## 参考文献
-
-- [MobileNet(v1,v2,v3)を簡単に解説してみた](https://qiita.com/omiita/items/77dadd5a7b16a104df83)
-- [2019年最強の画像認識モデルEfficientNet解説](https://qiita.com/omiita/items/83643f78baabfa210ab1)
-- [2021年最強になるか！？最新の画像認識モデルEfficientNetV2を解説](https://qiita.com/omiita/items/1d96eae2b15e49235110)
-
+- 記事
+  - [MobileNet(v1,v2,v3)を簡単に解説してみた](https://qiita.com/omiita/items/77dadd5a7b16a104df83)
+  - [2019年最強の画像認識モデルEfficientNet解説](https://qiita.com/omiita/items/83643f78baabfa210ab1)
+  - [2021年最強になるか！？最新の画像認識モデルEfficientNetV2を解説](https://qiita.com/omiita/items/1d96eae2b15e49235110)
+- 動画
+  - [【画像認識の代表的なモデル#12】EfficientNet（2019）](https://www.youtube.com/watch?v=2Ggvq7TJx_8)
+  - [backboneとしてのtimm入門](https://www.youtube.com/watch?v=YeyK1QhEB6A)
